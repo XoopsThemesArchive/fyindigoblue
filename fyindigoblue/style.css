@@ -1,0 +1,442 @@
+
+@charset "EUC-JP";
+
+/*---------------------------------------------*/
+/* FY Indigoblue CSS                           */
+/* Update: 2005/02/02                          */
+/* Author: Broom ( http://www.theme4u.net/ )   */
+/*---------------------------------------------*/
+
+/* SITE BODY CSS ------------------------------*/
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #fcfdf7;
+	color: #2f5376;
+	font-size: 80%; /* ここを変更するとフォントサイズを変更できます。 */
+	margin: 0px;
+	padding: 3px;
+	}
+table,td,tr{
+	font-size: 100%;
+	line-height: 1.3em;
+	}
+th{
+	background: #2f5376;
+	color: #ffffff;
+	font-size: 110%;
+	padding: 5px;
+	font-weight: bold;
+	}
+th a:link, th a:hover, th a:visited, th a:active{
+	color: #ffffff;
+	}
+ul {
+	margin: 0px; padding: 0px;
+	list-style: decimal inside;
+	text-align: left;
+	}
+li {
+	margin-left: 3px;
+	list-style: square inside;
+	}
+hr {
+	height: 0px; border: 1px solid #000; border: 1px 0 0 0;
+	}
+
+/* Link Style */
+a:link, a:visited, a:active{
+	color: #2f5376;
+	text-decoration: none;
+	}
+a:hover{
+	color: #000000;
+	text-decoration: none;
+	}
+a.tablink{
+	border: solid #f8fafc;
+	border-width: 0px 1px 0px 1px;
+	padding: 0 10px;
+	margin: 0px;
+	font-weight: bold;
+	text-decoration: none;
+	}
+a.tablink:hover{
+	border: solid #2f5376;
+	border-width: 0px 1px 0px 1px;
+	}
+
+/* Border Style */
+.tabpanel{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	font-size: 85%;
+	padding: 3px;
+	margin: 1px 1px 0px 1px;
+	}
+.logo{
+	border: solid #2f5376;
+	border-width: 0 1px;
+	background: #f8fafc;
+	background-image : url(images/logo_bg.gif);
+	background-repeat : repeat-x;
+	padding: 0px;
+	margin: 0px 1px 0px 1px;
+	}
+.sitenav{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 5px;
+	margin: 0px 1px 8px 1px;
+	font-size: 85%;
+	font-weight: bold;
+	}
+.welcomepanel{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 5px;
+	margin: 1px 1px 8px 1px;
+	}
+.welcomepanel input{
+	padding: 3px;
+	vertical-align: middle;
+	}
+.welcomepanel input.button{
+	vertical-align: middle;
+	}
+.welcomepanel_right{
+	padding: 5px;
+	margin: 1px 1px 8px 1px;
+	}
+.welcomepanel_right input{
+	vertical-align: middle;
+	}
+.welcomepanel_right input.button{
+	vertical-align: middle;
+	}
+.pagetitle{
+	border: 1px solid #000000;
+	background: #f8fafc url(images/pagetitle_bg.gif) repeat-y right;
+	padding: 3px;
+	margin: 1px;
+	font-weight: bold;
+	}
+.content{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 5px;
+	margin: 1px 1px 1px 1px;
+	}
+.adpanel{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 5px;
+	margin: 8px 1px 8px 1px;
+	text-align: center;
+	}
+.copyright{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 5px;
+	margin: 1px 1px 8px 1px;
+	text-align: center;
+	}
+
+/* Table Block Style */
+.leftblocks{
+	vertical-align: top;
+	width: 170px;
+	padding: 0 5px 0 0;
+	}
+.centerblocks{
+	vertical-align: top;
+	}
+.rightblocks{
+	vertical-align: top;
+	width: 170px;
+	padding: 0px 0px 0px 5px;
+	}
+
+/* Block Style */
+.blockTitle{
+	border: 1px solid #2f5376;
+	background: #2f5376;
+	color: #fff;
+	padding: 2px 5px 2px 5px;
+	font-weight: bold;
+	}
+.blockContent{
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 5px;
+	}
+
+
+/* General text */
+.genmed {
+	font-size : 10px;
+	}
+.gensmall {
+	font-size : 11px;
+	}
+
+/* XOOPS CSS */
+
+td#mainmenu {
+	width:167px;
+	line-height:98%;
+	}
+td#mainmenu a {	}
+td#mainmenu a:hover {	}
+td#mainmenu a.menuTop {
+	border-top: 1px dotted #2f5376;
+	border-bottom: 1px dotted #2f5376;
+	color: #2f5376;
+	background: url(images/menu_point.gif) no-repeat left;
+	padding-left: 16px;
+	}
+td#mainmenu a.menuTop:hover {
+	color: #7b3100;
+	background: url(images/menu_point_hover.gif) no-repeat left;
+	padding-left: 16px;
+	}
+td#mainmenu a.menuMain {
+	border-bottom: 1px dotted #2f5376;
+	color: #2f5376;
+	background: url(images/menu_point.gif) no-repeat left;
+	padding-left: 16px;
+	}
+td#mainmenu a.menuMain:hover{
+	color: #7b3100;
+	background: url(images/menu_point_hover.gif) no-repeat left;
+	text-decoration: none;
+	}
+td#mainmenu a.menuSub {
+	border-bottom: 1px dotted #2f5376;
+	background: url(images/menu_sub_point.gif) no-repeat left;
+	padding-left: 22px;
+	}
+td#mainmenu a.menuSub:hover {
+	border-bottom: 1px dotted #2f5376;
+	background: url(images/menu_sub_point_hover.gif) no-repeat left;
+	color: #7b3100;
+	padding-left: 22px;
+	}
+
+td#usermenu {
+	width:167px;
+	padding: 0px; line-height:95%;
+	}
+td#usermenu a {
+	border-bottom: 1px dotted #2f5376;
+	color: #2f5376;
+	background: url(images/menu_point.gif) no-repeat left;
+	padding-left: 16px;
+	}
+td#usermenu a:hover {
+	color: #7b3100;
+	background: url(images/menu_point_hover.gif) no-repeat left;
+	text-decoration: none;
+	}
+td#usermenu a.menuTop {
+	border-top: 1px dotted #2f5376;
+	border-bottom: 1px dotted #2f5376;
+	color: #2f5376;
+	background: url(images/menu_point.gif) no-repeat left;
+	padding-left: 16px;
+	}
+td#usermenu a.menuTop:hover {
+	color: #7b3100;
+	background: url(images/menu_point_hover.gif) no-repeat left;
+	padding-left: 16px;
+	}
+td#usermenu a.highlight {
+	color: #ff9999;
+	background: url(images/menu_pmnow.gif) no-repeat left;
+	}
+
+/* Newbb Style */
+.outer{
+	border: 1px solid #2f5376;width:100%;
+	}
+.head, tr.head td{
+	background-color: #2f5376;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 3px;
+	}
+.head a:link, .head a:active, .head a:visited{
+	color: #ffffff;
+	}
+.even{
+	background-color: #e7eff5;
+	vertical-align: top;
+	padding: 3px;
+	}
+.odd{
+	background-color: #f3f7fa;
+	vertical-align: top;
+	padding: 3px;
+	}
+tr.even td{
+	background-color: #e7eff5;
+	vertical-align: middle;
+	padding: 3px;
+	}
+tr.odd td{
+	background-color: #f3f7fa;
+	vertical-align: middle;
+	padding: 3px;
+	}
+.foot, tr.foot td{
+	background-color: #447ba4;
+	color: #ffffff;
+	padding: 3px;
+	}
+.foot a:link, .foot a:hover, .foot a:visited, .foot a:active{
+	color: #ffffff;
+	}
+
+div.errorMsg {
+	background-color: #FFCCCC;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold; padding: 10px;
+	}
+div.confirmMsg {
+	background-color: #DDFFDF;
+	color: #136C99; text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold; padding: 10px;
+	}
+div.resultMsg {
+	background-color : #CCCCCC;
+	color: #333333; text-align: center;
+	border-top: 1px solid silver;
+	border-left: 1px solid silver;
+	font-weight: bold;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	padding: 10px;
+	}
+
+
+/* XOOPS NEWBB CSS */
+.comTitle {
+	border-bottom: 1px solid #2f5376;
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 2px;
+	}
+.comText {
+	line-height: 1.7em;
+	padding: 2px;
+	padding-bottom: 20px;
+	}
+.comUserStat {
+	font-size: 10px;
+	font-weight:bold;
+	border: solid #2f5376;
+	border-width: 1px 2px 2px 1px;
+	background-color: #f3f7fa;
+	margin: 2px; padding: 2px;
+	}
+.comUserStatCaption {
+	font-weight: normal;
+	}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	color: #2F5376;
+	font-weight:bold;
+	font-size: 10px;
+	}
+.comUserRank {
+	margin: 2px;
+	}
+.comUserRankText {
+	font-size: 10px;
+	font-weight:bold;
+	}
+.comUserRankImg {
+	border: 0;
+	}
+.comUserName {
+	}
+.comUserImg {
+	margin: 2px;
+	}
+.comDate {
+	font-weight: normal;
+	font-style: italic;
+	font-size: smaller
+	}
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	}
+
+div.xoopsCode {
+	background: #ffffff;
+	border: 1px solid #2f5376;
+	border-width: 1px 1px 1px 5px;
+	padding: 5px;
+	}
+div.xoopsQuote {
+	background: #ffffff;
+	border: 1px solid #2f5376;
+	border-width: 1px 1px 1px 5px;
+	padding: 0px;
+	}
+
+
+/* XOOPS NEWS CSS */
+.item {	}
+.itemHead {
+	border: 1px solid #2f5376;
+	background: #2f5376;
+	padding: 4px 8px 4px 4px;
+	margin: 1px;
+	color: #ffffff;
+	font-weight: bold;
+	}
+.itemInfo {
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 3px 5px 3px 5px;
+	margin: 1px;
+	text-align: right;
+	}
+.itemTitle a, .itemTitle a:hover, .itemTitle a:visited, .itemTitle a:active {
+	color: #ffffff;
+	}
+.itemPoster {	}
+.itemPostDate {	}
+.itemStats {	}
+.itemBody {
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	line-height: 2.0em;
+	}
+.itemText {
+	}
+.itemText:first-letter {
+	font-size: 133%;
+	font-weight: bold;
+	}
+.itemFoot {
+	border: 1px solid #2f5376;
+	background: #f8fafc;
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	text-align: right;
+	}
+.itemAdminLink {	}
+.itemPermaLink {	}
